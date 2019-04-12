@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Maverick Marín</title>
+    <meta name="title" content="*nombre*">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="*descripción*">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="*nombre*">
+    <meta itemprop="description" content="*descripción*">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="*nombre*">
+    <meta name="twitter:description" content="*descripción*">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="*nombre*">
+    <meta name="og:description" content="*descripción*">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>Maverick Marín</h1>
+            <h2>Me desempeño como diseñador industrial, me interesa bastante la sustentabilidad y el rol social dentro del diseño.</h2>
+            <header>
+
+                <nav>
+                  <ul>
+                    <li id="pestañas"><a href="#somos">Perfil</a></li>
+                    <li id="pestañas"><a href="#portafolio">Portafolio</a></li>
+                    <li id="pestañas"><a href="#Servicios">Servicios</a></li>
+
+                  </ul>
+                </nav>
+
+
+
+            </header>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/video.mp4" type="video/mp4">
+
+        </video>
+
+        <h3>PERFIL</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h4>Maverick Marín</h4>
+                <h5>"Todo es Diseño"</h5>
+                <p id="parrafo">Estudié Diseño en la Pontificia Universidad Católica de Chile. He tenido experiencia con diferentes empresas y organizaciones que a lo largo de mi carrera.</p>
+                <address><a href="mailto:mbmarin@uc.cl">mbmarin@uc.cl</a></address>
+                <nav>
+                  <ul>
+                    <li id="pestaña"><a href="#contenido">Inicio</a></li>
+                  </ul>
+                </nav>
+            </div>
+            <div class="dupla segunda">
+<h4 id="habilidades">Habilidades</h4>
+
+            </div>
+
+
+
+
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+
+
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+        <div>
+          <nav>
+            <ul>
+              <li id="pestaña2"><a href="#contenido">Inicio</a></li>
+            </ul>
+              </nav>
+        </div>
+        <div class="Servicios">
+          <h4 id="Servicios">¿Qué servicios puedo entregar?</h4>
+
+         <p id="parrafos1">BRANDING: El desarrollo de una marca con todos sus conjuntos, desde la elaboración del producto, logo, identidad de marca, desarrollo de tipografía, color etc.</p>
+         <p id="parrafos1">GRÁFICO: La elaboración de iconos, laminas, revistas, trípticos, libros, infografías de todo tipo, desde la explicación de proyectos, productos, piezas educativas etc.</p>
+         <p id="parrafos1">MARKETING: La estrategia y coordinación para que un producto se comercialice eficientemente con pruebas de estudio, entrevistas, exposición de trabajos y salida a terreno, elaboración de encuestas.</p>
+         <p id="parrafos1">AUDIOVISUAL: La creación de vídeos de todo tipo, filmaciones en el área del entretenimiento, informativa, educacional, arreglos a la calidad audiovisual, edición de sonido, hasta animaciones en 2D.</p>
+         <p id="parrafos1">PACKAGING: Construcción y diseño de Packaging, con diferentes materialidades y el impacto de este en em medio ambiente, elaboración de planos y dibujo técnico.</p>
+         <p id="parrafos1">INDUSTRIAL: Elaboración de productos industriales, desde esquemas, impacto y desarrollo físico de este, simulación en 3D como el manejo ergonómico que se necesite.</p>
+
+         <nav>
+           <ul>
+             <li id="pestaña1"><a href="#contenido">Inicio</a></li>
+           </ul>
+             </nav>
+        </div>
+
+
+
+
+        <footer>
+            <p>Procesos de Producción · sección web · primer semestre · 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/* ALGUNAS DEFINICIONES GENÉRICAS */
+
+
+body{
+	font-family: 'Space Mono', monospace;
+	background:url(media/fondo.jpg);
+	width: 100%;
+	height: 100%;
+	color:rgba(100,100,100,2);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+}
+p, h5, {
+	font-weight:700;
+
+
+}
+li#pestañas{
+  border-radius: 0px;
+  border-style: solid;
+  border-color: #45c663;
+display:inline-block;
+	height: ;
+	width: 200px;
+	margin: 100px;
+
+
+}
+li#pestaña{
+	border-radius: 0px;
+  border-style: solid;
+  border-color: #45c663;
+	display: block;
+  text-align: center;
+	margin-left: 138px;
+
+	width: 200px;
+
+
+
+}
+li#pestaña1{
+	border-radius: 0px;
+  border-style: solid;
+  border-color: #45c663;
+display:block;
+text-align: center;
+	height: ;
+	width: 200px;
+
+	padding: .4rem 1rem;
+  margin-left: 39rem;
+
+
+
+}
+
+li#pestaña2{
+	border-radius: 0px;
+  border-style: solid;
+  border-color: #45c663;
+display:block;
+text-align: center;
+	height: ;
+	width: 200px;
+
+
+  margin-left: 39rem;
+
+
+
+}
+
+
+
+
+
+
+
+h1{
+	font-size:3rem;
+	letter-spacing:0.1em;
+	color:rgba(255,255,255,0.9);
+	text-align:center;
+
+
+}
+
+
+h2{
+	font-size:2rem;
+	letter-spacing:0.1em;
+	color:rgba(255,255,255,0.9);
+	text-align:center;
+	width: ;
+	height: ;
+	display: block;
+	padding: .4rem 1rem;
+  margin-left: 5rem;
+}
+
+h3{
+	font-size:1.5rem;
+	letter-spacing:0.1em;
+	color:#45c663;
+	text-align:center;
+	padding:1rem 0;
+
+}
+
+a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration:underline;
+}
+
+/* COMENZAMOS CON LAS PARTES */
+
+#contenido{width:99,9%; margin:0%;height: 100%; background: rgb(0,0,0,0.8);}
+
+
+
+
+
+header{
+	width:98%;
+	top:36%;
+	position:absolute;
+	text-align:center;
+	z-index:9;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+video{
+
+	width:1518px;
+	height:auto;
+
+}
+
+#somos{
+	width:100%;
+	background:#000000;
+	margin-bottom:;
+	border-radius: 0px;
+  border-style: solid;
+  border-color: #000000;
+	height: 402px;
+	}
+
+	.dupla{
+		width:46%;
+		padding:2%;
+		float:left;
+		background-color:red;
+
+	}
+
+
+.primera{
+	min-height:300px;
+	text-align:left;
+	background-color:#000000;
+  background-image:url('media/dupla-01.png');
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+	color: #FFFFFF;
+}
+.primera h4{padding: 2% 40% 1% 20%; font-family: 'Roboto', sans-serif; margin-bottom:2em}
+
+.primera h5{padding: 1% 40% 2% 20%; margin-bottom:1em; letter-spacing:0.1em; font-family: 'Roboto', sans-serif;}
+
+
+
+.primera address{padding: 2% 40% 2% 20%; font-size:0.9em; font-style:normal;}
+p#parrafo{
+	display: block;
+
+	margin-left: 138px;
+	text-align:left;
+width: 400px;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:1em;
+
+}
+
+.segunda{
+	min-height:200px;
+
+	background-color:#000000;
+	background-image:url('media/dupla-02.png');
+	background-position: bottom;
+	background-repeat:no-repeat;
+	background-size:auto 80%;
+	margin: 4% auto;
+
+}
+
+
+h4#habilidades{
+
+padding: 1% 2% 2% 26%;
+color: #FFFFFF;
+border-color: #FFFFFF;
+
+
+}
+
+.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.segunda p{padding: 2% 2% 2% 40%;}
+
+.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+
+h4#Servicios{
+  background: ;
+  font-family: "roboto";
+  font-size: 50px ;
+  margin: 50px;
+  color: #45c663;
+  text-align: center;
+  width: ;
+  padding-top: 200px;
+
+}
+.Servicios{
+  background: ;
+  background-position: 0px 0px;
+  width:101%;
+  height: 2000px;
+}
+p#parrafos1{
+  font-family: "Heebo";
+  font-size: 1.4rem ;
+
+  text-align: center;
+
+  height: 220px;
+  padding-top: ;
+  display:inline-block;
+  margin: 100px;
+  padding: 1em;
+  vertical-align: top;
+  color: #FFFFFF;
+  width: 31.9%;
+  height: 150px;
+  position:;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #45c663;
+
+}
+
+#somos hr{
+	clear:both;
+	border:none;
+	}
+
+#portafolio{
+	width:100%;
+	padding-bottom:1%;
+	background:rgba(100,100,100,2);
+}
+
+.item {
+	width:23%;
+	margin:1%;
+	color:#333;
+	background:white;
+	box-shadow:0 0 5px rgba(0,0,0,.5);
+}
+
+.item:hover{
+	cursor:crosshair;
+}
+
+.item figure{
+	overflow:hidden;
+}
+
+.item figure img{
+	width:100%;
+	height:auto;
+	margin-bottom:-4px;
+	filter: grayscale(1);
+}
+
+.item:hover figure img{
+	transform:scale(2);
+	filter: grayscale(0);
+	transition:all ease-out 1s;
+}
+
+.item h4{
+	font-size:1em;
+	letter-spacing:0.025em;
+	margin:5% 5% 3% 5%;
+}
+
+.item p{
+	font-size:0.875em;
+
+	letter-spacing:0.05em;
+	margin:2% 5% 6% 5%;
+}
+
+footer{
+	width:100%;
+	padding:3em 0 1em 0;
+	text-align:center;
+}
+
+footer p{
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	font-size:0.9em;
+	}
+
+/* AJUSTES PARA QUE SE VEA BIEN EN DISTINTOS DISPOSITIVOS */
+
+@media screen and (orientation: portrait){
+
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+
+	header{top:24%;}
+
+}
+
+@media screen and (max-width: 768px){
+
+	header{top:12%;}
+
+	.item{
+		width:48%;
+		margin:1%;
+		background:#000;
+		color:#FFF;
+	}
+
+}
+
+@media screen and (max-width: 576px){
+
+	header{top:2%;}
+
+	.item{
+		width:96%;
+		margin:2%;
+		background:#000;
+		color:#FFF;
+	}
+
+}
